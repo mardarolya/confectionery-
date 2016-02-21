@@ -457,6 +457,66 @@ header h1 {
   margin-right: 5px;
 }
 
+footer {
+  min-height: 30px;
+  padding: 10px 5%;
+  background-color: #E9E6DF;
+  border-top: 5px solid #c09c6f;
+}
+.contacts {
+  float: left;
+}
+.contacts .photo {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.photo a{
+  font-weight: normal;
+  border-bottom: 2px dashed #6E4B40;
+}
+
+.copyright {
+  float: right;
+  margin: 10px 0;
+}
+.copyright .disign {
+  color: #6E4B40;
+  border-bottom: 2px dashed #6E4B40;
+}
+footer h3 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+footer span {
+  display: block;
+}
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.woff?82604848') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+}
+
+.icon-phone:before { content: '\e800'; }
+.icon-mail:before { content: '\e801'; }
+
 @media screen and (max-width:785px){
   header {
     padding-bottom: 0;

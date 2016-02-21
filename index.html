@@ -20,9 +20,9 @@
         </div>
         <nav class="navigation">
           <ul>
-            <li><a href="#">Обо мне</a></li>
-            <li><a href="#">Рецептуры</a></li>
-            <li><a href="#">Условия заказа</a></li>
+            <li><a href="#about-me">Обо мне</a></li>
+            <li><a href="#compositions">Рецептуры</a></li>
+            <li><a href="#order-specification">Условия заказа</a></li>
           </ul>
         </nav>
       </div>
@@ -104,10 +104,10 @@
       <label for="slide-1" class="slider-check slider-check-for-first">Торт 1</label>
       <label for="slide-2" class="slider-check slider-check-for-second">Торт 2</label>
       <label for="slide-3" class="slider-check slider-check-for-third">Торт 3</label>
-      <a href="#" class="slider-check">Все рецептуры</a>
+      <a href="#compositions" class="slider-check">Все рецептуры</a>
     </div>
 
-    <section class="about-me clearfix">
+    <section id="about-me" class="about-me clearfix">
       <div class="about-text">
         <h2>Обо мне</h2>
         <p><img src="img/me.jpg" width="170" class="about-me-photo-p">Меня зовут Инесса Резанова и я кондитер.
@@ -126,7 +126,7 @@
       </div>
     </section>
 
-    <section class="compositions">
+    <section id="compositions" class="compositions">
       <div class="composition">
         <div class="composition-img">
           <img src="img/composition-1.jpg">
@@ -194,12 +194,12 @@
       </div>
     </section>
 
-    <section class="order-specification">
+    <section id="order-specification" class="order-specification">
       <h2>Условия заказа</h2>
       <p>Заказ тортиков происходит не менее чем за 5 дней до намеченного торжества.
          Все работы происходят по предоплате. Дегустация тортиков происходит каждый четверг
          по адресу ул.Большая Васильковская, д.5 по предварительной записи (см. контакты).
-         Рецептуры не поддаются изменениям, поверьте, я долго работала над подбором сочетаний,
+         Рецептуры не поддаются изменениям. Поверьте, я долго работала над подбором сочетаний,
          все ингридиенты идеально подходят по вкусовым качествам друг другу. Внесение
          изменений в рецептуру может непоправимо исказить вкус, а мы ведь этого не хотим, правда?
        </p>
@@ -207,10 +207,15 @@
 
     <footer class="clearfix">
       <div class="contacts">
-        <a href="#" class="social">
+        <h3>Контакты:</h3>
+        <span class="icon-phone"> +3 8(095) XXX - XX - XX </span>
+        <span class="icon-mail"> inessa@gmail.com </span>
+        <span class="photo">Фотограф:
+          <a href="http://nataliphotography.com/">Натали Резанова</a>
+        </span>
       </div>
       <div class="copyright">
-        <span>disign by O.Ma: love inside</span>
+        <span>дизайн и верстка: <a href="https://github.com/mardarolya" class="disign">Мардарь Ольга</a></span>
       </div>
     </footer>
   </div>

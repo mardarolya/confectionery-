@@ -2,7 +2,7 @@
 # Выполнен для Инессы Резановой
 
 * Дизайн и верстка: [Ольга Мардарь](https://htmlacademy.ru/profile/id144410)]
-* Технологии: HTML, HTML5, CSS, CSS3, адаптивный веб-дизайн (Responsive Web Design).
+* Стандарты вёрстки: HTML5, CSS3, адаптивный веб-дизайн (Responsive Web Design).
 
 
 
