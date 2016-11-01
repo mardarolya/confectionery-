@@ -6,4 +6,4 @@
 
 
 
-<img width="769" alt="" src="https://github.com/mardarolya/confectionery-/blob/master/img/front.jpg">
+<img width="500" alt="" src="https://github.com/mardarolya/confectionery-/blob/master/img/front.jpg">
